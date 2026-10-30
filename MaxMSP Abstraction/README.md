@@ -73,4 +73,4 @@ Open _br.subdiv.example.1.0.maxpat (keep it in the same folder as br.subdiv.1.0.
 
 - **3, 4, 7:** change the division while it runs. The scope jumps to the new grid at once; the step number and the button only change on real steps.
 - **prob 1 0.5 1 0** and **prob none:** a chance per step (0 = a silent step, not counted), and back to normal.
-- **pattern 2 1 1** and **pattern 1 1 1 1:** uneven step lengths for division 4, and back to even steps.
+- **pattern 2 1 1** and **pattern 1:** uneven step lengths for division 4, and back to even steps. A pattern repeats, so pattern 1 (every step 1 long) means even steps at any division.
